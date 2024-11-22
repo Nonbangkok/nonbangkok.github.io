@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    margin: 0;
+}
+img{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 270px;
+    height: 270px;
+    background-color: whitesmoke;
+    transition: background-color 1s,transform 1s;
+}
+.bord{
+    width: 20rem;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.bord:hover{
+    background-color: aquamarine;
+    transition: background-color 1s;
+}
+.bord img:hover {
+    transform: rotate(30deg);
+    transition: transform 1s;
+}
+.scale{
+    transition: transform 1s;
+}
+.scale:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+#text{
+    margin: 0;
+    height: 20px;
+}
+.font{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+.cen{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.big{
+    font-size: 2rem;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pdf{
+    overflow:scroll;
+    height: 800px;
+    width: 49%;
+}
